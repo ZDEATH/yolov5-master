@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['shrimp', 'shrimp2', 'shrimp3', 'shrimp4']
+
+roboflow:
+  workspace: project
+  project: shrimp-detect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/shrimp-detect/dataset/1
